@@ -4,7 +4,6 @@ from PIL import Image
 import win32com.client
 import pyautogui
 import threading
-from convert import convertJPG
 def move():
     while True:
         pyautogui.moveTo(1106, 749, duration=0.5)
